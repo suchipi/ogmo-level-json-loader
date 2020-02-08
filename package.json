@@ -1,0 +1,19 @@
+{
+  "name": "ogmo-level-json-loader",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "suchipi/ogmo-level-json-loader",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.7.7",
+    "@babel/template": "^7.7.4",
+    "@babel/types": "^7.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-unobtrusive": "^1.2.5",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  }
+}
