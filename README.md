@@ -17,6 +17,7 @@ module.exports = {
       {
         test: /\.json$/i,
         use: ["ogmo-level-json-loader"],
+        type: "javascript/auto",
       },
     ],
   },
