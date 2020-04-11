@@ -1,7 +1,7 @@
 const parseOgmo = require("./parseOgmo");
 
-test("parseOgmo - level json", async () => {
-  expect(await parseOgmo("fixtures/level1.json")).toMatchInlineSnapshot(`
+test("parseOgmo - level json", () => {
+  expect(parseOgmo("fixtures/level1.json")).toMatchInlineSnapshot(`
     "module.exports = {
       \\"ogmoVersion\\": \\"3.3.0\\",
       \\"width\\": 320,
@@ -95,8 +95,8 @@ test("parseOgmo - level json", async () => {
   `);
 });
 
-test("parseOgmo - non-level json", async () => {
-  expect(await parseOgmo("fixtures/non-level.json")).toMatchInlineSnapshot(`
+test("parseOgmo - non-level json", () => {
+  expect(parseOgmo("fixtures/non-level.json")).toMatchInlineSnapshot(`
     "module.exports = {
     	\\"just\\": \\"some\\",
     	\\"stuff\\": true,
